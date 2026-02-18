@@ -6,11 +6,13 @@ test-results/
 playwright-report/
 playwright/.cache/
 
-# Auth state (DO NOT COMMIT)
+# Auth state
 auth/storageState.json
 
 # Environment secrets
 .env
+config/env.dev.json
+config/env.uat.json
 
 # Logs
 *.log
