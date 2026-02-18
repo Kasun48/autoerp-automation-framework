@@ -1,0 +1,17 @@
+{
+  "name": "autoerp-automation-framework",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "playwright test",
+    "smoke": "playwright test --grep @smoke",
+    "regression": "playwright test --grep @regression"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.2.0",
+    "@playwright/test": "^1.42.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "openai": "^4.0.0",
+    "winston": "^3.10.0"
+  }
+}
